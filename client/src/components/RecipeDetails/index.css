@@ -1,0 +1,51 @@
+.recipe-d-image {
+    height: 70vh;
+    width: 40vw;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.mobile-s-rd {
+    display: flex;
+}
+
+.fontSty-rec {
+    font-style: italic;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+
+.recipe-d-main-cont {
+    padding: 30px;
+}
+
+.recipe-d-main-cont>h1 {
+    margin-bottom: 20px;
+}
+
+.message-add {
+    margin-left: 30px;
+    color: rgb(100, 236, 100);
+    font-size: 18px;
+    font-weight: 550;
+    transition: 0.3s;
+}
+
+.message-add:active {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .mobile-s-rd {
+        display: block !important;
+    }
+
+    .recipe-d-image {
+        height: 200px;
+        width: 100%;
+    }
+
+    .message-add {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,71 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    margin: auto;
+}
+
+.nav-cont-route {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+.nav-main-cont {
+    height: 100px;
+}
+
+
+.logo-name {
+    font-size: 40px !important;
+    font-weight: 550;
+    font-family: cursive;
+    font-style: normal;
+    padding-left: 5px;
+}
+
+.bars {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    padding-right: 50px !important;
+}
+
+.profile {
+    padding-left: 50px;
+}
+
+.container-parent {
+    position: relative;
+
+}
+
+.navigation-items {
+    position: absolute;
+    right: 20px;
+
+
+}
+
+/* Resposive mobile view */
+@media screen and (min-width:300px) and (max-width:600px) {
+    .bars {
+        border: 1px solid grey !important;
+        margin: 5px !important;
+        padding-left: 15px !important;
+        border-radius: 10px;
+    }
+
+    .mobile-view-menu {
+        position: relative;
+        top: 150px;
+        right: 36px;
+        background: rgb(255, 255, 255);
+        color: #000;
+        padding: 8px;
+        border-radius: 5px;
+        width: 350px;
+    }
+
+}

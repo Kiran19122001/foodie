@@ -1,0 +1,27 @@
+.fav-recipe-list-cont {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    margin-bottom: 30px;
+    border: 2px solid #c1bebe;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
+.fav-recipe-image {
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .fav-recipe-image {}
+
+    .fav-recipe-list-cont {
+        flex-wrap: wrap;
+        width: 350px;
+    }
+}
